@@ -257,6 +257,8 @@ section{
 
 #about .profile-image{
     float:right;
+    width:400px;
+    height:300px;
 }
 
 #about .info th{
@@ -334,6 +336,11 @@ table{
         font-size: 6vw;
     }
 
+    .imgsize{
+        width: 400px;
+        height: 300px;
+    }
+
     header{
         width: auto;
         margin: 0 5%;
@@ -388,6 +395,11 @@ table{
         margin: 0;
         padding:30px 10% 10px;
         background-color: #767671;
+    }
+
+    .imgsize{
+        width: 250px;
+        height: 160px;
     }
 
     #about .profile-image{
