@@ -336,11 +336,6 @@ table{
         font-size: 6vw;
     }
 
-    .imgsize{
-        width: 400px;
-        height: 300px;
-    }
-
     header{
         width: auto;
         margin: 0 5%;
@@ -403,7 +398,8 @@ table{
     }
 
     #about .profile-image{
-        width: auto;
+        width: 250px;
+        height: 160px;
         float: none;
     }
     
