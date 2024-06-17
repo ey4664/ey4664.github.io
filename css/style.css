@@ -430,6 +430,28 @@ table{
         margin: 0 5%;
     }
     
+    #index{
+        background-image: url(../images/IMG_003.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #index h1{
+        font-size: 60px;
+        line-height: 1;
+        color:#ffffff;
+        font-family: 'Bitter',serif;
+        margin-bottom: 30px;
+        border:none;
+    }
+
+    #index footer{
+        width: 100%;
+        margin: 0 auto;
+        text-align: left;
+        margin: 150px auto 0 auto;
+        background-color: transparent;
+    }
 
     h2 img{
         max-width: 100%;
@@ -479,6 +501,7 @@ table{
         background-repeat: repeat;
     }
 
+
     #photograph{
         background-image: url(../images/IMG_002.jpg);
         background-position: top center;
@@ -493,8 +516,5 @@ table{
         width:200px;
     }
 
-    #wrap{
-        min-height: 100%;
-    }
 
 }
