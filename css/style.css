@@ -462,9 +462,15 @@ table{
         float: none;
         margin: 0;
         margin-bottom:0;
-        padding:30px 10% 10px;
+        padding:5px 10% 5px;
         background-color: #767671;
         border-radius: 0px;
+    }
+
+    .sidebar h2{
+        margin-bottom: 0px;
+        font-size: 4vw;
+        color: #f0f0f0;
     }
 
     .imgsize{
@@ -506,6 +512,12 @@ table{
         background-image: url(../images/IMG_002.jpg);
         background-position: top center;
         background-repeat: repeat;
+    }
+
+    #photograph .photograph li{
+        float: left;
+        list-style: none;
+        margin: 0 5px 15px 0;
     }
 
     #about .info th{
