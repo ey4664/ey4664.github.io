@@ -527,6 +527,167 @@ table{
     #about .info td{
         width:200px;
     }
-
-
 }
+
+@media screen and (min-width:601px) and ( max-width:959px) {
+     /*画面サイズが600px以下の場合に適用*/
+     body{
+        font-size: 3.5vw;
+    }
+
+    h1{
+        font-size: 7.2vw;
+    }
+
+    h2{
+        font-size: 6vw;
+    }
+
+    header{
+        width: auto;
+        margin: 0 5%;
+    }
+
+    .logo{
+        float: none;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .global-nav{
+        float: none;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .global-nav li{
+        display: inline;
+        float: none;
+        margin: 0px 8px;
+    }
+
+    #wrap{
+        margin-top: 25px;
+        padding: 35px 0 0 0;
+    }
+
+    #about #wrap{
+        margin-top: 25px;
+        padding: 35px 0;
+    }
+
+    .content{
+        width:100%;
+    }
+
+    .main{
+        float: none;
+        width: auto;
+        margin: 0 5%;
+    }
+
+    .main-center{
+        float: none;
+        width: auto;
+        margin: 0 5%;
+    }
+    
+    #index{
+        background-image: url(../images/IMG_003.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #index h1{
+        font-size: 60px;
+        line-height: 1;
+        color:#ffffff;
+        font-family: 'Bitter',serif;
+        margin-bottom: 30px;
+        border:none;
+    }
+
+    #index footer{
+        width: 100%;
+        margin: 0 auto;
+        text-align: left;
+        margin: 150px auto 0 auto;
+        background-color: transparent;
+    }
+
+    h2 img{
+        max-width: 100%;
+    }
+
+    .sidebar{
+        width: auto;
+        float: none;
+        margin: 0;
+        margin-bottom:0;
+        padding:5px 10% 5px;
+        background-color: #767671;
+        border-radius: 0px;
+    }
+
+    .sidebar h2{
+        margin-bottom: 0px;
+        font-size: 4vw;
+        color: #f0f0f0;
+    }
+
+    .imgsize{
+        width: 250px;
+        height: 160px;
+    }
+
+    .imgsize_p{
+        width: 90px;
+        height: 80px;
+    }
+
+    #about .profile-image{
+        width: 250px;
+        height: 160px;
+        float: none;
+    }
+    
+    #about .profile-txt{
+        width:auto;
+        float:none;
+    }
+
+
+    #blog{
+        background-image: url(../images/IMG_002.jpg);
+        background-position: top center;
+        background-repeat: repeat;
+    }
+
+    #about{
+        background-image: url(../images/IMG_002.jpg);
+        background-position: top center;
+        background-repeat: repeat;
+    }
+
+
+    #photograph{
+        background-image: url(../images/IMG_002.jpg);
+        background-position: top center;
+        background-repeat: repeat;
+    }
+
+    #photograph .photograph li{
+        float: left;
+        list-style: none;
+        margin: 0 5px 15px 0;
+    }
+
+    #about .info th{
+        width:100px;
+    }
+    
+    #about .info td{
+        width:200px;
+    }
+}
+
